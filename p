@@ -1,0 +1,1 @@
+javascript:(() => {if (document.location.host != 'www.blooket.com') return alert('Drag me to your bookmark bar and click me when you\'re logged in on blooket.com');if (!localStorage.token) alert('Couldn\'t find token, make sure you\'re logged in');else window.open(`https://www.gbasil.dev/blooket?token=${encodeURIComponent(localStorage.token)}`);})();
